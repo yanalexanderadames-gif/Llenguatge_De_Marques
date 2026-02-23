@@ -1,0 +1,56 @@
+{
+    "$schema": "JSON_SCHEMA_4_4.json",
+  "alumne": [
+    {
+      "id": 1,
+      "nom": "Maria",
+      "llinatges": "Lopez Torres",
+      "data_naixement": "2005-03-10",
+      "correu": "maria@email.com",
+      "telefon": "600111222",
+      "adreca": "Carrer Major 1",
+      "data_matricula": "2024-09-15",
+      "curs": "DAM"
+    },
+    {
+      "id": 10,
+      "nom": "Pere",
+      "llinatges": "Marti Serra",
+      "data_matricula": "2023-09-15",
+      "curs": "DAW"
+    }
+  ],
+
+  "professor": [
+    {
+      "id": 100,
+      "nom": "Laura",
+      "llinatges": "Gomez Ruiz",
+      "data_naixement": "1985-06-20",
+      "correu": "laura@email.com",
+      "telefon": "600333444",
+      "adreca": "Carrer Escola 5",
+      "data_incorporacio": "2020-09-01",
+      "departament": "Informàtica",
+
+      "assignatura": [
+        {
+          "id_assignatura": 1,
+          "nom_assignatura": {
+            "nom": "Programació",
+            "cicle": "DAM"
+          },
+          "data_inici": "2024-09-15"
+        },
+
+        {
+          "id_assignatura": 2,
+          "nom_assignatura": {
+            "nom": "Bases de dades",
+            "cicle": "DAW"
+          }
+        }
+      ]
+    }
+  ]
+}

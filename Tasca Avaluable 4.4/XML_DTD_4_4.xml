@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cifp SYSTEM "DTD_4_4.dtd">
+
+<cifp>
+
+    <alumne id="a1">
+        <nom>Anna</nom>
+        <llinatges>Martinez Torres</llinatges>
+        <data_naixement>2005-03-10</data_naixement>
+        <correu>anna@gmail.com</correu>
+        <telefon>600111222</telefon>
+        <adreca>Carrer Major 5</adreca>
+        <data_matricula>2025-09-01</data_matricula>
+        <curs>DAM</curs>
+    </alumne>
+
+    <alumne id="a10">
+        <nom>Pere</nom>
+        <llinatges>Roca Vidal</llinatges>
+        <data_matricula>2024-09-01</data_matricula>
+        <curs>DAW</curs>
+    </alumne>
+
+    <professor id="p20">
+        <nom>Laura</nom>
+        <llinatges>Fernandez Costa</llinatges>
+        <data_naixement>1980-05-20</data_naixement>
+        <correu>laura@gmail.com</correu>
+        <telefon>611222333</telefon>
+        <adreca>Carrer Nou 10</adreca>
+        <data_incorporacio>2018-09-01</data_incorporacio>
+        <departament>Informàtica</departament>
+
+        <assignatura id_assignatura="as101">
+            <nom_assignatura cicle="DAM">Programacio</nom_assignatura>
+            <data_inici>2025-09-15</data_inici>
+        </assignatura>
+
+    </professor>
+
+</cifp>

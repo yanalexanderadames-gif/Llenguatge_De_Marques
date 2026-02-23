@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<cifp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="XSD_4_4.xsd">
+
+    <alumne id="1">
+        <nom>Anna</nom>
+        <llinatges>Martinez</llinatges>
+        <data_matricula>2025-09-01</data_matricula>
+        <curs>DAM</curs>
+    </alumne>
+
+    <alumne id="10">
+        <nom>Pere</nom>
+        <llinatges>Roca</llinatges>
+        <data_naixement>2005-03-12</data_naixement>
+        <correu>pere@gmail.com</correu>
+        <telefon>666777888</telefon>
+        <adreca>Carrer Major 5</adreca>
+        <data_matricula>2024-09-01</data_matricula>
+        <curs>DAW</curs>
+    </alumne>
+
+    <professor id="5">
+        <nom>Laura</nom>
+        <llinatges>Fernandez</llinatges>
+        <data_incorporacio>2018-09-01</data_incorporacio>
+        <departament>Informàtica</departament>
+
+        <assignatura id_assignatura="101">
+            <nom_assignatura cicle="DAM">Programació</nom_assignatura>
+            <data_inici>2025-09-10</data_inici>
+        </assignatura>
+
+        <assignatura id_assignatura="102">
+            <nom_assignatura cicle="DAW">Bases de dades</nom_assignatura>
+        </assignatura>
+
+    </professor>
+
+</cifp>
