@@ -1,0 +1,1 @@
+count(collection("Adames")//empleat)
